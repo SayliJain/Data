@@ -1,0 +1,53 @@
+# Patient Electronic Health Records (EHR)
+ehr_data = [
+    {
+        "patient_id": "P001",
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "medical_history": ["Hypertension", "Type 2 Diabetes"],
+        "lifestyle_factors": {"smoking": "No", "alcohol": "Moderate", "exercise": "Regular"}
+    },
+    {
+        "patient_id": "P002",
+        "name": "Jane Smith",
+        "age": 37,
+        "gender": "Female",
+        "medical_history": ["Asthma"],
+        "lifestyle_factors": {"smoking": "Yes", "alcohol": "Low", "exercise": "Occasional"}
+    }
+]
+
+# Lab Reports
+lab_reports = [
+    {
+        "patient_id": "P001",
+        "test_date": "2024-10-01",
+        "test_type": "Blood Test",
+        "results": {"glucose": 150, "cholesterol": 220},
+        "normal_range": {"glucose": "70-99", "cholesterol": "125-200"}
+    },
+    {
+        "patient_id": "P002",
+        "test_date": "2024-10-02",
+        "test_type": "X-Ray",
+        "results": {"lung_capacity": "Normal"},
+        "normal_range": {"lung_capacity": "Normal"}
+    }
+]
+
+# Comprehensive Health Report
+health_reports = [
+    {
+        "patient_id": "P001",
+        "summary": "Patient has a history of hypertension and diabetes. Recent blood test shows elevated glucose and cholesterol levels.",
+        "primary_diagnosis": "Poorly controlled Type 2 Diabetes",
+        "alternative_diagnoses": ["Hyperlipidemia"]
+    },
+    {
+        "patient_id": "P002",
+        "summary": "Patient has a history of asthma. Recent X-Ray shows normal lung capacity.",
+        "primary_diagnosis": "Controlled Asthma",
+        "alternative_diagnoses": ["No alternative diagnoses"]
+    }
+]
