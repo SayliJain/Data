@@ -1,0 +1,29 @@
+ehr_data = [
+    {
+        "patient_id": "P001",
+        "name": "John Doe",
+        "age": 52,
+        "gender": "Male",
+        "medical_history": ["Anemia", "Chronic NSAID use"],
+        "lifestyle_factors": {"smoking": "No", "alcohol": "None", "exercise": "Regular"}
+    }
+]
+
+lab_reports = [
+    {
+        "patient_id": "P001",
+        "test_date": "2024-12-13",
+        "test_type": "Complete Blood Count (CBC)",
+        "results": {"hemoglobin": 8.2, "mean_corpuscular_volume": "Pending"},
+        "normal_range": {"hemoglobin": "13.5-17.5", "mean_corpuscular_volume": "80-100"}
+    }
+]
+
+health_reports = [
+    {
+        "patient_id": "P001",
+        "summary": "Patient presents with increasing exercise intolerance and slight pallor. Anemia confirmed with hemoglobin level of 8.2 g/dL. Next steps include analyzing MCV and further testing for iron deficiency.",
+        "primary_diagnosis": None,
+        "alternative_diagnoses": []
+    }
+]
